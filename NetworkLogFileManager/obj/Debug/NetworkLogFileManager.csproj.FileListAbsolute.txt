@@ -1,0 +1,14 @@
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\bin\Debug\NetworkLogFileManager.exe.config
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\BrowserWindow.baml
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\MainWindow.baml
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\BrowserWindow.g.cs
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\MainWindow.g.cs
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\App.g.cs
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager_MarkupCompile.cache
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.g.resources
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.Properties.Resources.resources
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.csproj.GenerateResource.Cache
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\bin\Debug\NetworkLogFileManager.exe
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\bin\Debug\NetworkLogFileManager.pdb
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.exe
+C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.pdb

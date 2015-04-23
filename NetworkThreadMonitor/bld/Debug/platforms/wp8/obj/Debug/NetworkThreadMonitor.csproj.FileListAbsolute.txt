@@ -1,0 +1,14 @@
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\Bin\Debug\Background.png
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\Bin\Debug\io.cordova.NetworkThreadMonitor.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\Bin\Debug\io.cordova.NetworkThreadMonitor.pdb
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\obj\Debug\io.cordova.NetworkThreadMonitor.g.resources
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\obj\Debug\io.cordova.NetworkThreadMonitor.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\obj\Debug\io.cordova.NetworkThreadMonitor.pdb
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkThreadMonitor\bld\Debug\platforms\wp8\obj\Debug\XapCacheFile.xml
