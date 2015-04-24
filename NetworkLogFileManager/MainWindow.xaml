@@ -1,8 +1,26 @@
 ﻿<Window x:Class="NetworkLogFileManager.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-       Title="Upload Log Files" Height="500" Width="700" >
-        <Grid>
-        <Button Content="Authenticate" HorizontalAlignment="Left" Margin="88,51,0,0" VerticalAlignment="Top" Width="75" BorderBrush="#FF8C8282" Background="#FF1B34A2" Foreground="#FFDDE8EA" Click="Button_Click" BorderThickness="2" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+       Title="Upload Log Files" Height="306.723" Width="628.571" Background="#FFE6ECEE" >
+    <Window.BorderBrush>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="0"/>
+            <GradientStop Color="#FF2C2828" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.BorderBrush>
+
+    <Grid>
+        <Button Content="Authenticate" HorizontalAlignment="Left" Margin="88,51,0,0" VerticalAlignment="Top" Width="110" 
+                BorderBrush="#FF8C8282" Background="#FF1B34A2" Foreground="#FFDDE8EA" Click="Button_Click" BorderThickness="2" 
+                Grid.RowSpan="2" Grid.ColumnSpan="2" Height="40" FontSize="14" FontWeight="Bold" />
+
+        <TextBlock  x:Name="LabelToken" Text="Token" HorizontalAlignment="Left" Margin="88,133,0,0" VerticalAlignment="Top" 
+                    FontSize="14" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" MaxWidth="450"></TextBlock>
+
+        <TextBlock  x:Name="LabelRefreshToken" Text="RefreshToken" HorizontalAlignment="Left" Margin="88,167,0,0" VerticalAlignment="Top" 
+                    FontSize="14" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" MaxWidth="450"></TextBlock>
+
+        <TextBlock  x:Name="LabellUploadedFile" Text="UploadedFile" HorizontalAlignment="Left" Margin="88,201,0,0" VerticalAlignment="Top" 
+                    FontSize="14" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" MaxWidth="450"></TextBlock>
     </Grid>
-    </Window>
+</Window>

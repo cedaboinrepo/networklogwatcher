@@ -26,6 +26,45 @@ namespace NetworkLogFileManager
         private const string MsaClientId = "000000004814F681";
         private const string MsaClientSecret = "cnNgx5df5xoL9IK9Um2aZLZ7BGDCWEHI";
         private static AppTokenResult _appToken = null;
+        private string _accessToken;
+        private string _refreshToken;
+        private int _expires;
+
+        public string AccessToken
+        {
+            set
+            {
+                _accessToken = value;
+            }
+            get
+            {
+                return _accessToken;
+            }
+        }
+
+        public string RefeshToken
+        {
+            set
+            {
+                _refreshToken = value;
+            }
+            get
+            {
+                return _refreshToken;
+            }
+        }
+
+        public int TokenExpires
+        {
+            set
+            {
+                _expires = value;
+            }
+            get
+            {
+                return _expires;
+            }
+        }
 
         public MainWindow()
         {
@@ -49,12 +88,14 @@ namespace NetworkLogFileManager
             }
         }
 
-        private async void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             //await Authenticate();
 
-            OAuthForm form = new OAuthForm();
-            form.Start();
+            OAuthWindow window = new OAuthWindow();
+            window.StartAuthentication(this);
+
+            //form.Start();
 
             // create folder
 
