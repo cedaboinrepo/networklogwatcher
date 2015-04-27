@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLogWatcher", "Networ
 EndProject
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "NetworkThreadMonitor", "NetworkThreadMonitor\NetworkThreadMonitor.jsproj", "{71053957-8C3D-405A-86C7-711D228A44C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouterLogMonitor", "RouterLogMonitor\RouterLogMonitor.csproj", "{77220414-7BEE-4C55-B4D4-E853C422B506}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLogFileManager", "NetworkLogFileManager\NetworkLogFileManager.csproj", "{4AC968A1-FCF0-459B-B644-5AF15E8AD366}"
 EndProject
 Global
@@ -163,6 +165,42 @@ Global
 		{71053957-8C3D-405A-86C7-711D228A44C9}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
 		{71053957-8C3D-405A-86C7-711D228A44C9}.Release|Windows-x86.Build.0 = Release|Windows-x86
 		{71053957-8C3D-405A-86C7-711D228A44C9}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Android.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|iOS.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Windows Phone (Universal).ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Windows Phone 8.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Windows-AnyCPU.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Windows-ARM.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Windows-x64.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Debug|Windows-x86.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Android.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Any CPU.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Any CPU.Build.0 = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|iOS.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Mixed Platforms.Build.0 = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Windows Phone (Universal).ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Windows Phone 8.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Windows-AnyCPU.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Windows-ARM.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Windows-x64.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Distribution|Windows-x86.ActiveCfg = Debug|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Android.ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|iOS.ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Windows Phone (Universal).ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Windows Phone 8.ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Windows-AnyCPU.ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Windows-ARM.ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Windows-x64.ActiveCfg = Release|Any CPU
+		{77220414-7BEE-4C55-B4D4-E853C422B506}.Release|Windows-x86.ActiveCfg = Release|Any CPU
 		{4AC968A1-FCF0-459B-B644-5AF15E8AD366}.Debug|Android.ActiveCfg = Debug|Any CPU
 		{4AC968A1-FCF0-459B-B644-5AF15E8AD366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4AC968A1-FCF0-459B-B644-5AF15E8AD366}.Debug|Any CPU.Build.0 = Debug|Any CPU
