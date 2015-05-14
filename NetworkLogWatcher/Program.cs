@@ -29,14 +29,11 @@ namespace NetworkLogWatcher
 
                     if (location != null && !string.IsNullOrEmpty(location.latitude) && !string.IsNullOrEmpty(location.longitude))
                     {
-
                         var logLine = log.Date + "|" + log.Source + "|" + log.Destination + "|" + location.country_name + "|" + location.city
                             + "|" + location.latitude + "|" + location.longitude;
 
                         FileOperations.WriteToFile("C:\\Logs\\xfinity_svc1.txt", logLine);
-
                     }
-
 
                     var logInfo = Router.GetFirewallLogs();
                     var locationInfo = GeoLocation.GetIpGeoLocationInfo(log);
@@ -52,8 +49,6 @@ namespace NetworkLogWatcher
 
                         FileOperations.WriteToFile("C:\\Logs\\xfinity_svc2.txt", logLineInfo);
                     }
-
-                    Thread.Sleep(120000);
                 }
             }
         }

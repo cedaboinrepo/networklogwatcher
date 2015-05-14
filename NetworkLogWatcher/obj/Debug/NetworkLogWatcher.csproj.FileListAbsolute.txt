@@ -1,7 +1,6 @@
 c:\users\carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\bin\Debug\NetworkLogWatcher.exe.config
 c:\users\carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\bin\Debug\NetworkLogWatcher.exe
 c:\users\carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\bin\Debug\NetworkLogWatcher.pdb
-c:\users\carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\obj\Debug\NetworkLogWatcher.csprojResolveAssemblyReference.cache
 c:\users\carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\obj\Debug\NetworkLogWatcher.exe
 c:\users\carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\obj\Debug\NetworkLogWatcher.pdb
 C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\bin\Debug\HtmlAgilityPack.dll
