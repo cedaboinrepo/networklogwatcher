@@ -109,57 +109,19 @@ namespace NetworkLogFileManager
 
         private static async Task<AccessTokens> GetAccessTokens(string uri)
         {
-            //var responseSerializer =  JsonConvert.DeserializeObject<IEnumerable<string>>(AccessTokens));
             AccessTokens tokenResponse = null;
 
             try
             {
                 var realUri = new Uri(uri, UriKind.Absolute);
-
                 var addy = realUri.AbsoluteUri.Substring(0, realUri.AbsoluteUri.Length - realUri.Query.Length);
-
                 var test = realUri.Query.Substring(1);
-                //var request = (HttpWebRequest)WebRequest.Create(addy);
-
-                //request.Method = "POST";
-                //request.ContentType = "application/x-www-form-urlencoded";
-
-                //using (var writer = new StreamWriter(request.GetRequestStream()))
-                //{
-                //    writer.Write(realUri.Query.Substring(1));
-                //}
-
-                //var response = (HttpWebResponse)request.GetResponse();
-
-                // The response is JSON, for example: {
-                //                                     "token_type":"bearer",
-                //                                     "expires_in":3600,
-                //                                     "scope":"bingads.manage",
-                //                                     "access_token":"<AccessToken>",
-                //                                     "refresh_token":"<RefreshToken>"
-                //                                    }
-
-                // Use the JSON serializer to serialize the response into the AccessTokens object.
-
-                //using (Stream responseStream = response.GetResponseStream())
-                //{
-                //    if (responseStream != null)
-                //        tokenResponse = JsonConvert.DeserializeObject<AccessTokens>(responseStream);
-                //}
 
                 using (var client = new HttpClient())
                 {
                     var requestMessage = new HttpRequestMessage(HttpMethod.Get, addy + "?" + test);
                     requestMessage.Headers.Accept.Add(
                         new MediaTypeWithQualityHeaderValue("application/x-www-form-urlencoded"));
-
-                    //var formValues = new List<KeyValuePair<string, string>>
-                    //{
-                    //    new KeyValuePair<string, string>("strEmail", email),
-                    //    new KeyValuePair<string, string>("ApiKey", apiKey),
-                    //    new KeyValuePair<string, string>("strOrgId", orgId)
-                    //};
-                    //requestMessage.Content = new FormUrlEncodedContent(formValues);
 
                     var response = await client.SendAsync(requestMessage);
                     if (!response.IsSuccessStatusCode)
@@ -178,8 +140,90 @@ namespace NetworkLogFileManager
 
                 Console.WriteLine("HTTP status code: " + response.StatusCode);
             }
-
             return tokenResponse;
+        }
+
+        private async Task CreateAppFolder(string accessToken)
+        {
+            // => /drive/special/approot
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    var requestMessage = new HttpRequestMessage(HttpMethod.Get, "https://api.onedrive.com/v1.0/drive/special/approot");
+                    requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+                    var response = await client.SendAsync(requestMessage);
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        var error = response;
+                    }
+
+                    var content = await response.Content.ReadAsStringAsync();
+                }
+            }
+            catch (WebException e)
+            {
+                var response = (HttpWebResponse)e.Response;
+                Console.WriteLine("HTTP status code: " + response.StatusCode);
+            }
+        }
+
+        private async Task GetAppFolderMeta(string accessToken)
+        {
+            // => /drive/special/approot
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    var requestMessage = new HttpRequestMessage(HttpMethod.Get, "https://api.onedrive.com/v1.0/drive/items//6B102E9E8EB0A1A4!115");// "6B102E9E8EB0A1A4!115"
+                    requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+                    var response = await client.SendAsync(requestMessage);
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        var error = response;
+                    }
+
+                    var content = await response.Content.ReadAsStringAsync();
+                }
+            }
+            catch (WebException e)
+            {
+                var response = (HttpWebResponse)e.Response;
+                Console.WriteLine("HTTP status code: " + response.StatusCode);
+            }
+        }
+
+        private async Task UploadFile(string accessToken)
+        {
+            // => /drive/special/approot
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    var requestMessage = new HttpRequestMessage(HttpMethod.Put, "https://api.onedrive.com/v1.0/drive/items/6B102E9E8EB0A1A4!115/children/test/content");// "6B102E9E8EB0A1A4!115"
+                    requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+                    var file = new System.IO.FileStream(@"C:\Users\carlosda\Desktop\page.txt", System.IO.FileMode.Open);
+                    var content = new StreamContent(file);
+                    requestMessage.Content = content;
+                    requestMessage.Content.Headers.ContentType = new MediaTypeWithQualityHeaderValue("text/plain");
+
+
+                    var response = await client.SendAsync(requestMessage);
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        var error = response;
+                    }
+                }
+            }
+            catch (WebException e)
+            {
+                var response = (HttpWebResponse)e.Response;
+                Console.WriteLine("HTTP status code: " + response.StatusCode);
+            }
         }
     }
 }
