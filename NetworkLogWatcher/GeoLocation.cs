@@ -16,6 +16,10 @@ namespace NetworkLogWatcher
             IpGeoLocation result = null;
             using (var client = new HttpClient())
             {
+                if(log == null)
+                {
+                    return null;
+                }
                 var index = log.Source.IndexOf(':');
                 var port = log.Source.Substring(index);
                 log.Source = log.Source.Replace(port, "").Trim();
@@ -41,6 +45,10 @@ namespace NetworkLogWatcher
 
         public static IpGeoLocationInfo GetIpGeoLocationInfo(FirewallLog log)
         {
+            if (log == null)
+            {
+                return null;
+            }
             IpGeoLocationInfo result = null;
             using (var client = new HttpClient())
             {
