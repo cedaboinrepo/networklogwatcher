@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirewallViewer", "FirewallViewer\FirewallViewer.csproj", "{D70C705F-7E8B-49FE-B6E3-1FACE636EDA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "..\..\Source\Repos\networklogwatcher\Monitor\Monitor.csproj", "{09ED3EDB-EEDB-4C5F-8EFB-1D43080EC367}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{09ED3EDB-EEDB-4C5F-8EFB-1D43080EC367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
