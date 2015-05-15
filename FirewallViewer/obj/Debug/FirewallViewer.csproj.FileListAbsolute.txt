@@ -39,3 +39,4 @@ C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\qualifiers.
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\ProjectArchitectures.txt
+C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\FirewallViewer.csprojResolveAssemblyReference.cache
