@@ -8,3 +8,14 @@ C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkL
 C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\bin\Debug\HtmlAgilityPack.xml
 C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Carlos\documents\visual studio 2013\Projects\NetworkLogWatcher\NetworkLogWatcher\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\bin\Debug\NetworkLogWatcher.exe.config
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\bin\Debug\NetworkLogWatcher.exe
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\bin\Debug\NetworkLogWatcher.pdb
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\obj\Debug\NetworkLogWatcher.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\obj\Debug\NetworkLogWatcher.exe
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogWatcher\obj\Debug\NetworkLogWatcher.pdb

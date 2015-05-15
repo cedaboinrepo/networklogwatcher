@@ -16,3 +16,21 @@ C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkL
 C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.exe
 C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.pdb
 C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\BrowserWindow.baml
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\MainWindow.baml
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\BrowserWindow.g.cs
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\MainWindow.g.cs
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\App.g.cs
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager_MarkupCompile.cache
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.g.resources
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.Properties.Resources.resources
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.csproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.exe
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\bin\Debug\NetworkLogFileManager.exe.config
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\bin\Debug\NetworkLogFileManager.exe
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\bin\Debug\NetworkLogFileManager.pdb
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\bin\Debug\MicrosoftAccount.WindowsForms.dll
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.pdb

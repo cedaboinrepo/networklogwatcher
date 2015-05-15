@@ -92,9 +92,6 @@ namespace NetworkLogFileManager
         {
             //await Authenticate();
 
-            OAuthWindow window = new OAuthWindow();
-            window.StartAuthentication(this);
-
             //form.Start();
 
             // create folder
