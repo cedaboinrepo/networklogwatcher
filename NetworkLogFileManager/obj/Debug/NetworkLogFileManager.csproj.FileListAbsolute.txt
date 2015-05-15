@@ -16,7 +16,6 @@ C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkL
 C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.exe
 C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.pdb
 C:\Users\Carlos\Documents\Visual Studio 2013\Projects\NetworkLogWatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.csprojResolveAssemblyReference.cache
-C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\NetworkLogFileManager.csprojResolveAssemblyReference.cache
 C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\BrowserWindow.baml
 C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\MainWindow.baml
 C:\Users\Carlos\Documents\networklogwatcher\NetworkLogFileManager\obj\Debug\BrowserWindow.g.cs

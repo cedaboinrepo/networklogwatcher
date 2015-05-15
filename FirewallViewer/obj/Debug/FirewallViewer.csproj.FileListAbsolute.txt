@@ -10,7 +10,6 @@ C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\bin\Debug\FirewallVie
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\bin\Debug\Microsoft.Live.dll
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\FirewallViewer.csprojResolveAssemblyReference.cache
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\App.g.i.cs
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\App.g.cs
 C:\Users\Carlos\Documents\networklogwatcher\FirewallViewer\obj\Debug\MainPage.g.i.cs
