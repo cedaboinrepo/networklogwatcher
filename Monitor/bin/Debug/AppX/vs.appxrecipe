@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CDTRIX-MAIN</Machine>
+    <WindowsUser>Carlos Daboin</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>69716f19-f473-4707-9858-cf0e66c24356</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>F919BF1DBFC7D1CF2C9E39FAA7583E20290DB9CE73FBAEB49AF8A01E78B1E868</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>69716f19-f473-4707-9858-cf0e66c24356_1.0.0.0_neutral__yd7tr17965y68</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>69716f19-f473-4707-9858-cf0e66c24356_yd7tr17965y68!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>69716f19-f473-4707-9858-cf0e66c24356</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Carlos Daboin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-15T03:13:23.320</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\bin\Debug\Monitor.exe">
+      <PackagePath>Monitor.exe</PackagePath>
+      <Modified>2015-05-15T03:33:32.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-15T03:13:22.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-05-15T03:33:32.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\bin\Debug\Monitor.xr.xml">
+      <PackagePath>Monitor.xr.xml</PackagePath>
+      <Modified>2015-05-15T03:33:32.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\networklogwatcher\Monitor\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-15T03:13:23.227</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
