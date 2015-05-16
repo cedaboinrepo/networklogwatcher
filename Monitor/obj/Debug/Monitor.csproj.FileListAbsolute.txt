@@ -62,3 +62,7 @@ C:\Users\Carlos\Source\Repos\apps\Monitor\obj\Debug\qualifiers.txt
 C:\Users\Carlos\Source\Repos\apps\Monitor\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Carlos\Source\Repos\apps\Monitor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Carlos\Source\Repos\apps\Monitor\obj\Debug\ProjectArchitectures.txt
+C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carlos\Source\Repos\apps\Monitor\obj\Debug\Monitor.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Source\Repos\apps\Monitor\obj\Debug\Monitor.csproj.GenerateResource.Cache

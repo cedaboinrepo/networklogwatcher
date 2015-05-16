@@ -39,10 +39,12 @@
       <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+      <RootEvent Name="NavigationCompleted" />
     </RootType>
     <RootType FullName="Monitor.MainPage" />
   </Roots.RootTypes>

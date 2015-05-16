@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\carlos\source\repos\networklogwatcher\monitor\obj\debug\intermediatexaml\monitor.exe" HashGuid="e46c28f2-619f-42c8-f369-d2791c11dab1" />
+    <ReferenceAssembly PathName="c:\users\carlos\source\repos\apps\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

@@ -19,6 +19,9 @@
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Monitor.exe">
       <PackagePath>Monitor.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -34,6 +37,9 @@
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Pages\Map.html">
+      <PackagePath>Pages\Map.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
