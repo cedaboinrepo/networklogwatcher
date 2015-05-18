@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CDTRIX-MAIN</Machine>
-    <WindowsUser>Carlos Daboin</WindowsUser>
+    <Machine>CALOS-SURFACE</Machine>
+    <WindowsUser>Carlos</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
@@ -20,57 +20,57 @@
     <AppXManifest Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-16T04:33:37.712</Modified>
+      <Modified>2015-05-16T04:44:55.152</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Monitor.exe">
       <PackagePath>Monitor.exe</PackagePath>
-      <Modified>2015-05-16T04:33:37.488</Modified>
+      <Modified>2015-05-16T04:54:06.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2015-05-15T04:06:54.797</Modified>
+      <Modified>2015-05-16T00:36:16.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-05-16T00:36:12.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-05-16T00:36:12.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-05-16T00:36:12.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-05-16T00:36:12.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Pages\Map.html">
       <PackagePath>Pages\Map.html</PackagePath>
-      <Modified>2015-05-16T02:57:10.382</Modified>
+      <Modified>2015-05-16T04:52:59.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-15T04:01:57.709</Modified>
+      <Modified>2015-05-16T04:45:24.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-16T04:33:37.341</Modified>
+      <Modified>2015-05-16T04:54:06.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Monitor.xr.xml">
       <PackagePath>Monitor.xr.xml</PackagePath>
-      <Modified>2015-05-16T04:33:37.307</Modified>
+      <Modified>2015-05-16T04:44:55.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-16T04:33:37.628</Modified>
+      <Modified>2015-05-16T04:45:25.123</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
