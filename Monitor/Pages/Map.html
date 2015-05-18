@@ -17,6 +17,12 @@
 
 			createNokiaMap();
 
+			//function getHetmapData() {
+			//    var data;
+			    			    
+			//    createMapWithData(data);
+			//}
+
 			function createNokiaMap() {
 				var MapAppId = "4hqGaWnfNvhKB8O94Gvo";
 				var MapAppToken = "MZQ9jHhuuIEh9uJGUEGYFQ";
@@ -31,8 +37,8 @@
 					document.getElementById('map'),
 					defaultLayers.normal.map,
 					{
-						zoom: 4,
-						center: { lat: 57.0415, lng: -170.8583 }
+                        zoom: 18,
+					    center: { lat: 25.982578, lng: -80.318810 }
 					}
 				);
 
@@ -43,6 +49,9 @@
 
 				// Create the default UI components
 				var ui = H.ui.UI.createDefault(map, defaultLayers);
+
+			    // Change the map base layer to the satellite map with traffic information:
+				map.setBaseLayer(defaultLayers.satellite.map);
 
 				var heatmapData = [
 					{"value":6.1,"lng":173.0219, "lat":53.1380},

@@ -248,6 +248,8 @@ namespace Monitor
                         var uri = string.Format(AccessUriFormatter, TokenUri, ClientId, _code, DesktopUri);
                         var tokens = await GetAccessTokens(uri);
 
+                        WebViewMap.Source = new Uri("ms-appx-web:///Pages/Map.html");
+
                         //MainPage page = (MainPage)_mainWindow;
                         //page.AccessToken = tokens.access_token;
                         //page.RefeshToken = tokens.refresh_token;

@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-16T04:33:37.712</Modified>
+      <Modified>2015-05-16T12:58:36.347</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Monitor.exe">
       <PackagePath>Monitor.exe</PackagePath>
-      <Modified>2015-05-16T04:33:37.488</Modified>
+      <Modified>2015-05-17T03:28:03.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -54,15 +54,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Pages\Map.html">
       <PackagePath>Pages\Map.html</PackagePath>
-      <Modified>2015-05-16T02:57:10.382</Modified>
+      <Modified>2015-05-17T03:26:08.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-15T04:01:57.709</Modified>
+      <Modified>2015-05-16T12:58:36.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-16T04:33:37.341</Modified>
+      <Modified>2015-05-16T12:58:36.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Monitor.xr.xml">
       <PackagePath>Monitor.xr.xml</PackagePath>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-16T04:33:37.628</Modified>
+      <Modified>2015-05-16T12:58:36.312</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
