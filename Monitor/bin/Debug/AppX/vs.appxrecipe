@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CDTRIX-MAIN</Machine>
-    <WindowsUser>Carlos Daboin</WindowsUser>
+    <Machine>CALOS-SURFACE</Machine>
+    <WindowsUser>Carlos</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>69716f19-f473-4707-9858-cf0e66c24356</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Carlos\Source\Repos\apps\Monitor\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>3B90BAF7A00BB55131DA3623D0601410FE5E678E9037D02DEB12610B7967608E</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>0E121A5813C888933B518E86F6E16C838BCA485BB0212BB7B742FCAF38A9D382</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>69716f19-f473-4707-9858-cf0e66c24356_1.0.0.0_neutral__yd7tr17965y68</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>69716f19-f473-4707-9858-cf0e66c24356_yd7tr17965y68!App</RegisteredUserModeAppID>
     <RegisteredPackageID>69716f19-f473-4707-9858-cf0e66c24356</RegisteredPackageID>
@@ -20,57 +20,57 @@
     <AppXManifest Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-16T12:58:36.347</Modified>
+      <Modified>2015-05-18T19:03:39.704</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Monitor.exe">
       <PackagePath>Monitor.exe</PackagePath>
-      <Modified>2015-05-17T03:28:03.013</Modified>
+      <Modified>2015-05-18T19:57:57.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2015-05-15T04:06:54.797</Modified>
+      <Modified>2015-05-16T00:36:16.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-05-16T00:36:12.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-05-16T00:36:12.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-05-16T00:36:12.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T11:01:02.000</Modified>
+      <Modified>2015-05-16T00:36:12.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\Pages\Map.html">
       <PackagePath>Pages\Map.html</PackagePath>
-      <Modified>2015-05-17T03:26:08.624</Modified>
+      <Modified>2015-05-18T02:11:19.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-16T12:58:36.073</Modified>
+      <Modified>2015-05-18T19:02:46.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-16T12:58:36.074</Modified>
+      <Modified>2015-05-18T19:57:56.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\Monitor.xr.xml">
       <PackagePath>Monitor.xr.xml</PackagePath>
-      <Modified>2015-05-16T04:33:37.307</Modified>
+      <Modified>2015-05-18T19:57:56.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Carlos\Source\Repos\apps\Monitor\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-16T12:58:36.312</Modified>
+      <Modified>2015-05-18T19:03:39.548</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -2,7 +2,6 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -51,9 +50,6 @@ namespace Monitor
 
         public void StartAuthentication()
         {
-            //this.Show();
-            //  _mainWindow = main;
-
             var uri = string.Format(ConsentUriFormatter, AuthorizeUri, ClientId, DesktopUri);
             WebViewMap.Navigate(new Uri(uri));
         }
@@ -143,30 +139,30 @@ namespace Monitor
             return tokenResponse;
         }
 
-        private async Task CreateAppFolder(string accessToken)
-        {
-            // => /drive/special/approot
-            try
-            {
-                using (var client = new HttpClient())
-                {
-                    var requestMessage = new HttpRequestMessage(HttpMethod.Get, "https://api.onedrive.com/v1.0/drive/special/approot");
-                    requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+        //private async Task CreateAppFolder(string accessToken)
+        //{
+        //    // => /drive/special/approot
+        //    try
+        //    {
+        //        using (var client = new HttpClient())
+        //        {
+        //            var requestMessage = new HttpRequestMessage(HttpMethod.Get, "https://api.onedrive.com/v1.0/drive/special/approot");
+        //            requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
-                    var response = await client.SendAsync(requestMessage);
-                    if (!response.IsSuccessStatusCode)
-                    {
-                        var error = response;
-                    }
+        //            var response = await client.SendAsync(requestMessage);
+        //            if (!response.IsSuccessStatusCode)
+        //            {
+        //                var error = response;
+        //            }
 
-                    var content = await response.Content.ReadAsStringAsync();
-                }
-            }
-            catch (WebException e)
-            {
-                var response = (HttpWebResponse)e.Response;
-            }
-        }
+        //            var content = await response.Content.ReadAsStringAsync();
+        //        }
+        //    }
+        //    catch (WebException e)
+        //    {
+        //        var response = (HttpWebResponse)e.Response;
+        //    }
+        //}
 
         private async Task GetAppFolderMeta(string accessToken)
         {
@@ -175,7 +171,7 @@ namespace Monitor
             {
                 using (var client = new HttpClient())
                 {
-                    var requestMessage = new HttpRequestMessage(HttpMethod.Get, "https://api.onedrive.com/v1.0/drive/items//6B102E9E8EB0A1A4!115");// "6B102E9E8EB0A1A4!115"
+                    var requestMessage = new HttpRequestMessage(HttpMethod.Get, "https://api.onedrive.com/v1.0/drive/special/approot/children");//"https://api.onedrive.com/v1.0/drive/items");// "6B102E9E8EB0A1A4!115"
                     requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
                     var response = await client.SendAsync(requestMessage);
@@ -185,6 +181,17 @@ namespace Monitor
                     }
 
                     var content = await response.Content.ReadAsStringAsync();
+                    dynamic jsonResponse = JsonConvert.DeserializeObject(content);
+
+                    var files = jsonResponse.value;
+                    var fileNames = new List<string>();
+                    foreach (dynamic o in files)
+                    {
+                        var obj = o;
+                        fileNames.Add((string)o.name);
+                    }
+
+                    ComboBoxLogs.ItemsSource = fileNames;
                 }
             }
             catch (WebException e)
@@ -220,7 +227,7 @@ namespace Monitor
         //    catch (WebException e)
         //    {
         //        var response = (HttpWebResponse)e.Response;
-        //        Console.WriteLine("HTTP status code: " + response.StatusCode);
+
         //    }
         //}
 
@@ -248,16 +255,9 @@ namespace Monitor
                         var uri = string.Format(AccessUriFormatter, TokenUri, ClientId, _code, DesktopUri);
                         var tokens = await GetAccessTokens(uri);
 
+                        await GetAppFolderMeta(tokens.access_token);
+
                         WebViewMap.Source = new Uri("ms-appx-web:///Pages/Map.html");
-
-                        //MainPage page = (MainPage)_mainWindow;
-                        //page.AccessToken = tokens.access_token;
-                        //page.RefeshToken = tokens.refresh_token;
-                        //page.TokenExpires = tokens.expires_in;
-
-                        // page.LabelToken.Text = string.Format("AccessToken: {0}", tokens.access_token);
-                        // page.LabelRefreshToken.Text = string.Format("RefreshToken: {0}", tokens.refresh_token);
-                        //  page.LabellUploadedFile.Text = "?";
                     }
                     else
                     {
