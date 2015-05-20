@@ -175,6 +175,7 @@ namespace Monitor
                     requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
                     var response = await client.SendAsync(requestMessage);
+                    var status = response.StatusCode;
                     if (!response.IsSuccessStatusCode)
                     {
                         var error = response;
@@ -197,6 +198,59 @@ namespace Monitor
             catch (WebException e)
             {
                 var response = (HttpWebResponse)e.Response;
+            }
+        }
+
+        private async Task DownlaodFile(string accessToken)
+        {
+            // => /drive/special/approot
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    var requestMessage = new HttpRequestMessage(HttpMethod.Get, "https://api.onedrive.com/v1.0/drive/items/77C0EF73BDDF0767!20174/content");// "6B102E9E8EB0A1A4!115"
+                    requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+                    var response = await client.SendAsync(requestMessage);
+                    var status = response.StatusCode;
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        var error = response;
+                    }
+
+                    // header values, need location header to find file content
+                    var location = response.RequestMessage.RequestUri.AbsoluteUri;
+
+                    var content = await response.Content.ReadAsStringAsync();
+
+                    var lines = content.Split('\n');
+                    var locations = new List<FirewallLog>();
+                    foreach (var line in lines)
+                    {
+                        var values = line.Split('|');
+                        if (values.Length != 7)
+                            continue;
+
+                        DateTime logDate;
+
+                        locations.Add(
+                            new FirewallLog
+                            {
+                                Date = DateTime.TryParse(values[0], out logDate) ? logDate : DateTime.MinValue,
+                                AttarkerIp = string.IsNullOrEmpty(values[1]) ? string.Empty : values[1],
+                                TargetedRouterIpAndPort = string.IsNullOrEmpty(values[2]) ? string.Empty : values[2],
+                                Country = string.IsNullOrEmpty(values[3]) ? string.Empty : values[3],
+                                City = string.IsNullOrEmpty(values[4]) ? string.Empty : values[4],
+                                Latitude = string.IsNullOrEmpty(values[5]) ? string.Empty : values[5],
+                                Longitude = string.IsNullOrEmpty(values[6]) ? string.Empty : values[6].Replace("\r", ""),
+                            });
+                    }
+                }
+            }
+            catch (WebException e)
+            {
+                var response = (HttpWebResponse)e.Response;
+
             }
         }
 
@@ -256,7 +310,7 @@ namespace Monitor
                         var tokens = await GetAccessTokens(uri);
 
                         await GetAppFolderMeta(tokens.access_token);
-
+                        await DownlaodFile(tokens.access_token);
                         WebViewMap.Source = new Uri("ms-appx-web:///Pages/Map.html");
                     }
                     else

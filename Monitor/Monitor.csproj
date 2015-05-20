@@ -110,6 +110,7 @@
     </Compile>
     <Compile Include="Models\AccessTokens.cs" />
     <Compile Include="Models\FirewallLog.cs" />
+    <Compile Include="Models\HeatMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

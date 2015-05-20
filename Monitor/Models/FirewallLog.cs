@@ -8,18 +8,18 @@ namespace Monitor.Models
 {
     public class FirewallLog
     {
-        DateTime Date { get; set; }
+        public DateTime Date { get; set; }
 
-        string AttarkerIp { get; set; }
+        public string AttarkerIp { get; set; }
 
-        string TargetedRouterIpAndPort { get; set; }
+        public string TargetedRouterIpAndPort { get; set; }
 
-        string Country { get; set; }
+        public string Country { get; set; }
 
-        string City { get; set; }
+        public string City { get; set; }
 
-        string Latitude { get; set; }
+        public string Latitude { get; set; }
 
-        string Longitude { get; set; }
+        public string Longitude { get; set; }
     }
 }
